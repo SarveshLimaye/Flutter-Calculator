@@ -109,7 +109,9 @@ class _CalculatorState extends State<Calculator> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      calculation('0');
+                    },
                     child: Text(
                       "0",
                     ),
